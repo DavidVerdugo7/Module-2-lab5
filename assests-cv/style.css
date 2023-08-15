@@ -3,13 +3,16 @@
   font-family: "Chakra Petch", sans-serif;
   font-family: "Roboto Condensed", sans-serif;
 }
+
 .main {
   background-color: whitesmoke;
+  padding: 15px;
+  margin: 10px;
 }
 /*contact aside section*/
 .aside {
-  color: gainsboro;
-  background-color: #004450;
+  color: whitesmoke;
+  background-color: #3f6844;
   margin-right: 20px;
   padding-left: 4%;
   padding-right: 4%;
@@ -30,6 +33,7 @@
 
 .namebox {
   text-align: center;
+  margin-top: 20%;
 }
 .contact {
   text-align: center;
@@ -72,27 +76,69 @@
 }
 
 .h2softwares {
-  margin-top: 70px;
+  margin-top: 40px;
 }
 .h2skills {
-  margin-top: 70px;
+  margin-top: 45px;
 }
+
+/*progress bars*/
+.progresbars {
+  appearance: none; /* Remove default styling */
+  width: 100%; /* Make the progress bar fill its container */
+  height: 20px; /* Set the height of the progress bar */
+  background-color: #f0f0f0; /* Set a background color */
+  border-radius: 10px; /* Add rounded corners */
+  overflow: hidden; /* Hide overflowing content (percentage) */
+}
+
+.progresbars::-webkit-progress-value {
+  background-color: #f0f0f0; /* Change the progress bar color */
+  border-radius: 10px; /* Maintain rounded corners for the filled part */
+}
+
 /*article section profile, work experience*/
+
 .main {
   display: flex;
 }
+
+.sectionprofile {
+  margin: 10px;
+}
+
 .articlesection {
   height: 1250px;
   padding-top: 10px;
-  padding-left: 3%;
+  padding-left: 0%;
   padding-right: 4%;
   text-align: justify;
   font-size: 20px;
   flex: 70%;
-  margin-bottom: 180px;
+  margin-bottom: 5em;
 }
 .h2profile {
-  padding-top: 3px;
+  padding-top: 20px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 4em;
+}
+
+.column {
+  flex-basis: calc(33.33% - 20px); /* 3 columns */
+  padding: 10px;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+.skill {
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
 }
 
 /*Hobbies section*/
@@ -126,10 +172,13 @@
 
 #footer {
   font-size: 70%;
-  text-align: right;
+  text-align: center;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 720px) {
   .main {
     flex-direction: column;
+  }
+  .articlesection {
+    margin-bottom: 15em;
   }
 }
