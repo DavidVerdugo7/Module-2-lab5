@@ -1,0 +1,135 @@
+* {
+  font-family: "Arimo", sans-serif;
+  font-family: "Chakra Petch", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.main {
+  background-color: whitesmoke;
+}
+/*contact aside section*/
+.aside {
+  color: gainsboro;
+  background-color: #004450;
+  margin-right: 20px;
+  padding-left: 4%;
+  padding-right: 4%;
+  margin-bottom: 20px;
+  flex: 30%;
+}
+
+.jdimg {
+  display: flex;
+  width: 177px;
+  height: 193px;
+  border-radius: 50%;
+  object-fit: cover;
+  padding-top: 10%;
+  margin: auto;
+  align-items: center;
+}
+
+.namebox {
+  text-align: center;
+}
+.contact {
+  text-align: center;
+  margin-top: 30%;
+}
+.separator {
+  border-top: 0px solid #ccc;
+}
+
+.contactmail,
+.contactphone,
+.contactlocation,
+.contactlkd {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.icon-container {
+  filter: invert(100%);
+  margin-right: 20px;
+  border-radius: 30px;
+  padding: 5px;
+  box-shadow: 50;
+}
+#links {
+  color: gainsboro;
+}
+#icons {
+  width: 30px;
+  height: 30px;
+}
+
+.text-container {
+  align-items: center;
+}
+
+#links:hover {
+  color: #96b8ffee; /* Cambio de color al pasar el cursor por encima */
+}
+
+.h2softwares {
+  margin-top: 70px;
+}
+.h2skills {
+  margin-top: 70px;
+}
+/*article section profile, work experience*/
+.main {
+  display: flex;
+}
+.articlesection {
+  height: 1250px;
+  padding-top: 10px;
+  padding-left: 3%;
+  padding-right: 4%;
+  text-align: justify;
+  font-size: 20px;
+  flex: 70%;
+  margin-bottom: 180px;
+}
+.h2profile {
+  padding-top: 3px;
+}
+
+/*Hobbies section*/
+
+.hobbiesbox {
+  display: flex; /* Para alinear los íconos en una fila */
+  justify-content: space-between; /* justificar el contenidocon espacio entre los íconos */
+  align-items: center;
+  margin-right: 20%;
+  margin-left: 3%;
+  margin-bottom: 5%;
+}
+.hobbieimg {
+  width: 60%;
+}
+.sectionname {
+  color: black;
+}
+.skillbox {
+  margin: auto;
+}
+
+.softwarbox {
+  margin-bottom: 50px;
+}
+
+.h2hobbies {
+  margin-left: 3%;
+}
+/*footer*/
+
+#footer {
+  font-size: 70%;
+  text-align: right;
+}
+@media screen and (max-width: 700px) {
+  .main {
+    flex-direction: column;
+  }
+}
