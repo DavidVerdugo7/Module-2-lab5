@@ -96,9 +96,9 @@ nav ul li {
 .hero {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  gap: 4rem;
-  max-width: 80rem;
+  justify-content: center;
+  gap: 0rem;
+
   margin-top: -50px;
 }
 
